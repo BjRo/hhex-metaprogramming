@@ -1,0 +1,15 @@
+  Elixir Source Code
+        |
+        |
+    -----------------
+     Initial Parsing
+    -----------------
+            |
+      AST1  |         ------------
+            --------->  Expansion
+                      ------------
+                            |
+ recursively expanded AST   |          ---------------------
+                            ----------> bytecode generation -----> byte code
+                                       ---------------------
+
