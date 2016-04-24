@@ -1,6 +1,6 @@
-############################
-# Do we have any macros here?
-############################
+#####################################
+# Do we have any metaprogramming here?
+#####################################
 defmodule SpanTest do
   use ExUnit.Case
 
